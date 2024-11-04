@@ -1,2 +1,3 @@
-# pitchfork-reviews
-Utilising NLTK to determine if album reviews can be used to predict their scores
+# Natural Language Processing and Classification of Album Reviews
+
+In this project, I extract and analyse album reviews published on Pitchfork using natural language processing (NLP) techniques to explore how descriptive language varies across music genres. Finding that different genres are pre-disposed to a unique set of terminology and descriptors, I then train a classification model to predict the genre of unseen reviews. The initial model only obtains an accuracy of 58% but by conducting feature engineering and applying the Term Frequency - Inverse Document Frequency (TF-IDF) vectorisation to each genre in isolation, I manage to increase this score to 86%.
